@@ -1,3 +1,32 @@
-img{
-    object-fit: cover;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/1484759/pexels-photo-1484759.jpeg');
+    background-size: cover;
+
+
+    header{
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        padding: 1rem;
+
+        ul{
+            list-style: none;
+        }
+    }
+
+    main{
+        width: 100%;
+    }
 }
