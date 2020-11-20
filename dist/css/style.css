@@ -10,6 +10,7 @@
 body {
   background-image: url("https://images.pexels.com/photos/1484759/pexels-photo-1484759.jpeg");
   background-size: cover;
+  color: black;
 }
 
 body header {
@@ -45,6 +46,14 @@ body header ul {
 
 body header ul li {
   padding: 0 20px;
+}
+
+body header ul li a {
+  text-decoration: none;
+}
+
+body header ul li a:hover {
+  color: yellow;
 }
 
 body main {
